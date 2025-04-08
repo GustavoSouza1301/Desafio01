@@ -3,10 +3,10 @@ entrada01: 3:45
 entrada02: 14:20
 saida: 6:05"""
 
-hora01 = 3
-minutos01 = 45
-hora02 = 14
-minutos02 = 20
+hora01 = int(input("hora: "))
+minutos01 = int(input("minutos: "))
+hora02 = int(input("hora: "))
+minutos02 = int(input("minutos: "))
 
 minutoF = minutos01 + minutos02
 
